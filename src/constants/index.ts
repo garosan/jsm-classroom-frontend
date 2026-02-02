@@ -20,7 +20,6 @@ export const DEPARTMENTS = [
   "Physical Education",
   "Law",
   "Literature",
-  "Physics",
 ] as const;
 
 export const DEPARTMENT_OPTIONS = DEPARTMENTS.map((dept) => ({
