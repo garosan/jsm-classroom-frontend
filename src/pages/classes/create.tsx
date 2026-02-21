@@ -124,7 +124,7 @@ const ClassesCreate = () => {
                       <FormLabel>
                         Banner Image <span className="text-orange-600">*</span>
                       </FormLabel>
-                      {/* <FormControl>
+                      <FormControl>
                         <UploadWidget
                           value={
                             field.value
@@ -150,7 +150,7 @@ const ClassesCreate = () => {
                             }
                           }}
                         />
-                      </FormControl> */}
+                      </FormControl>
                       <FormMessage />
                       {errors.bannerCldPubId && !errors.bannerUrl && (
                         <p className="text-destructive text-sm">
